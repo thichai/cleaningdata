@@ -1,1 +1,1 @@
-This repository contains R script for Getting and Cleaning Data course on Coursera
+This repository contains R scripts for Getting and Cleaning Data course on Coursera

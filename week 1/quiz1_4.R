@@ -1,0 +1,6 @@
+library(XML)
+doc <- xmlTreeParse("data/quiz1_4.xml",useInternal=TRUE)
+root <- xmlRoot(doc)
+xmlName(top)
+zipcode <- xpathSApply(root, "//zipcode", xmlValue)
+length(zipcode[zipcode==21231])
